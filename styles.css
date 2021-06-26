@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --text: 1.5rem;
+    --head: calc(1rem + 2vw);
+    --bg-color: #fa983a;
+}
+
+body{
+    font-family: 'Righteous', cursive;
+}
+.navbar h2
+{
+    color:white;
+}
+
+.remove a
+{
+    color: transparent;
+    text-decoration: none;
+}
+.form
+{
+    min-height: 100vh;
+    background: url("https://images.unsplash.com/photo-1504714146340-959ca07e1f38?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=925&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation:slide 1s ease-in-out;   
+    color: black;
+    font-size: large;
+    font-weight: 900;
+    
+    padding-top: 170px;
+    padding-left: 5%;
+    background-position: center;
+}
+.formhead
+{
+    font-size: larger;
+    color: purple;
+    padding-top: 110px;
+    padding-bottom: 40px;
+     margin-right: 70%;
+    text-align: center;
+}
+.formhomelink ul li a
+{
+    font-size: 3rem;
+    display: flex;
+    padding-top: 20px;
+    font-weight: 900;
+    text-decoration: none;
+    background-color:#182C61;
+    margin-left: 90%;
+    border-width: 2rem;
+    border-radius: 20px;
+    color: yellow;
+}
+.formhomelink ul li a:hover
+{
+    transition: transparent 5ms solid var(--bg-color);
+    display: block;
+    color: yellowgreen;
+    
+}
+.formhomelink ul
+{
+    background-color:#182C61;
+}
+.description
+{
+    height: 100%;
+    min-height: 100vh;
+    background: url("https://images.unsplash.com/photo-1518655048521-f130df041f66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation:slide 1s ease-in-out;
+}
+.textus
+{
+    float: left;
+    color: black;
+    margin-top: 50px;
+    display: block;
+    padding:200px ;  
+    width: 90%;
+    border-radius: 30px;
+    
+}
+.about
+{
+    padding: 100px;
+    background-color: WHITE;
+    background: transparent;
+    background: border-box;
+    border-color: yellow;
+    font-weight: 900;
+    text-align: center;
+    
+}
+.heading
+{
+    text-align: center;
+    color:greenyellow;
+    background-color: black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.images button
+{
+    border: transparent;
+    border-width: 0.5rem;
+}
+.loginmain
+{
+    min-height: 100vh;
+    background: url("https://images.unsplash.com/photo-1432821579285-1b649e5b1ce3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation:slide 1s ease-in-out;
+}
+.logincard
+{
+    float: left;
+    color: black;
+    margin-top: 10%;
+    margin-bottom: 25px;
+    margin-left: 35%;
+    display: block;
+    width: 30%;
+    padding: 100px;
+    border-radius: 5px; 
+}
+.login h2
+{
+    font-weight: bold;
+    text-align: center;
+   border-width: 2rem;
+}
+.login button
+{
+    font-weight: 900;
+    margin-left: 40%;
+}
+.signupmain
+{
+    min-height: 100vh;
+    background: url("https://images.unsplash.com/photo-1560285509-3ebfa70a171d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1124&q=80" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation:slide 1s ease-in-out;
+}
+.signup
+{
+   
+    background-color:transparent;
+}
+.signup p
+{
+    font-weight: 900;
+    color: black;
+    text-align: center;
+}
+.signup p a
+{
+   color: yellow;
+   text-decoration: none;
+}
+.signup p a:hover
+{
+    color: blue;
+    transition: 5ms solid;
+}
+.signupcard
+{
+    float: left;
+    color: yellow;
+    margin-top: 0.5px;
+    margin-bottom: 25px;
+    margin-left: 35%;
+    display: block;
+    width: 30%;
+    padding: 100px;
+    border-radius: 5px;  
+   
+}
+.blocksignup
+{
+    font-size: 2rem;
+    font-weight: 900;
+    color: black;
+    text-align: center;
+}
+.signup button a
+{
+  
+  display: block;
+   float: left;
+  text-decoration: none;
+  color: green;
+  font-weight: 800;
+  border-width: 0.5rem;
+  border-color: black;
+  padding: 2px;
+}
+
+
+.hero-section
+{
+    min-height: 100vh;
+    background: url("https://images.unsplash.com/photo-1542315192-1f61a1792f33?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    position: relative;
+    z-index: 2;
+    animation:slide 1s ease-in-out;
+}
+@keyframes slide{
+    from{
+       transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 0rem 1.5rem;
+  }
+
+
+
+
+.navbar ul
+{
+    list-style: none;
+    font-size: var(--text);
+}
+
+.navbar ul li
+{
+    display: inline-block;
+    margin-left: 3rem;
+}
+    
+.navbar ul li:nth-child(5) a
+{
+    border-style: solid ;
+    border-color: green;
+    font-weight: 100;
+    color: white;
+    padding: 0.2rem;
+    border-radius: 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.navbar ul li:nth-child(5) a:hover
+{
+    display: block;
+    transition: ease-in;
+    color: greenyellow;
+    transition: 5ms;
+    background: transparent 50ms;
+}
+
+.navbar ul li:nth-child(1) a
+{
+    border-bottom:solid turquoise;
+}
+
+.navbar ul li a
+{
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar ul li a:hover   
+{
+  border-bottom: 2px solid white;
+  text-decoration: none;
+  color: white;
+}
+.navbar h2
+{
+    margin-top: 60px;
+}
+.hero-text
+{
+    color: floralwhite;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.hero-text::before
+{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black 20%;
+    z-index: -1;
+    top: 0;
+    opacity: 0.7;
+}
+.hero-text h1
+{
+    font-size: var(--head);
+    color:whitesmoke;
+}
+.hero-text p
+{
+    font-size: 2rem;
+   color:green;
+}
+
+.hero-text a:hover
+{
+    opacity: 0.6;
+}
+.hero-text a
+{
+text-decoration: none;
+color: var(--bg-color);
+font-weight: 900;
+font-size: var(--text);
+padding: 0.8rem 1rem;
+background-color: #182C61;
+margin: 0.8rem auto;
+display: block;
+transition: opacity 250ms linear;
+
+}
+
+.main{
+   display: inline-block;
+}
+
+
+.cards{
+    float: left;
+    margin-bottom: 25px;
+    margin-left: 10%;
+    display: block;
+    width: 20%;
+   border-radius: 5px;
+}
+
+.cards:hover
+{
+    box-shadow: 4px 4px 12px blue;
+    transition: 0.5s ease-in-out;
+}
+
+.image img
+{
+    opacity: 20;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-width: 2px;
+    width: 100%;
+}
+
+
+
+.title{
+    color: var(--bg-color);
+    background-color: #dcdde1;
+    text-align: center;
+}
+
+.desc
+{
+    padding: 4px;
+    background-color: white;
+    font-weight: 900;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.desc a
+{
+    text-decoration: none;
+}
+.desc a:hover
+{
+    color: white;
+}
+button{
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+button:hover
+{
+    background-color: black;
+    color: blanchedalmond;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.footer
+{
+
+    color:black;
+    background-color: grey;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-left: 660px;
+    display: block;
+    padding-bottom: 20px;
+
+}
